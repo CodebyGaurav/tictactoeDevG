@@ -1,0 +1,19 @@
+
+<h6>Your Chance Player : {{Player}}</h6>
+<hr>
+<button nbButton outline status="danger" (click)="newGame()">Start New Game</button>
+
+<h6 style="color: rgb(211, 214, 48);" *ngIf="winner">
+    Player {{winner}} won the game!
+</h6>
+<hr>
+<main>
+    <app-square
+        *ngFor="let val of squares; let i = index"
+        [value]="val"
+        (click)="makeMove(i)">
+    </app-square>
+</main>
+<p>
+    Github : <a href="https://github.com/CodebyGaurav/tictactoe" target="_blank" rel="noopener noreferrer">https://github.com/CodebyGaurav</a>
+</p>
