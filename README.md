@@ -1,6 +1,6 @@
 # Web Url TicTacToe
 
-Play a game with this url : https://tictactoecodebygaurav.web.app/
+Play a game with this url : [Click to play a TicTacToe](https://tictactoecodebygaurav.web.app/)
 
 # Tictactoe
 
